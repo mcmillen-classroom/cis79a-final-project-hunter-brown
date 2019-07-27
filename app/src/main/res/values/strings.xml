@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PolyRoll</string>
+
+
+    <string name="main_activity_title">Roll The Dice</string>
+
+    <string name="instructions_title">Instructions:</string>
+
+    <string name="instructions_main_1">Choose the type of dice and the number of each dice on the next screen. </string>
+    <string name="instructions_main_2">Once you have chosen your dice, shake your phone to get your results!</string>
+    <string name="button_choose_text">Continue</string>
+    <string name="dice_choice_title">CHOOSE YOUR DICE</string>
+
+    <string name="dice_2_title">Coin (2 sided)</string>
+    <string name="dice_3_title">3 Sided</string>
+    <string name="dice_6_title">6 Sided Dice</string>
+    <string name="roll_button_text">ROLL</string>
+    <string name="shake_activity_title">Shake the Phone!</string>
+    <string name="shake_null">Start shaking!</string>
+
+    <string name="shake_active">Shaking....</string>
+    <string name="shake_button_text">Results</string>
+    <string name="Results_title">Results!</string>
+    <string name="total_score_title">Total Score: </string>
+
+
+</resources>

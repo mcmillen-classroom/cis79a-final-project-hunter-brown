@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dice_choice_title"
+        android:textSize="20dp"
+        android:textColor="@color/colorFontMain"
+        android:fontFamily="@font/press_start_2p"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <!--Coin (2 sided)-->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_adjust_black_24dp"/>
+        <SeekBar
+            android:id="@+id/seek_2_sided"
+            android:max="10"
+            android:progress="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/heads_val"
+        tools:text="what what in the butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="@color/colorFontMain"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+
+    <!--4 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d4"/>
+            <SeekBar
+                android:id="@+id/seek_4_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_4_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--6 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d6"/>
+            <SeekBar
+                android:id="@+id/seek_6_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_6_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--8 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d8"/>
+            <SeekBar
+                android:id="@+id/seek_8_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_8_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--10 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d10"/>
+            <SeekBar
+                android:id="@+id/seek_10_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_10_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--12 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d12"/>
+            <SeekBar
+                android:id="@+id/seek_12_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_12_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!--20 sided Dice-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:src="@mipmap/d20"/>
+            <SeekBar
+                android:id="@+id/seek_20_sided"
+                android:max="10"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dice_20_val"
+            tools:text="what what in the butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/colorFontMain"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/roll_button_text"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="@color/colorFontMain"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="60dp"
+
+        />
+</LinearLayout>
